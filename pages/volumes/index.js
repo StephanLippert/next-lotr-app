@@ -23,7 +23,7 @@ export default function Volumes() {
           </Link>
         ))}
       </ul>
-      <button onClick={handleClick}>Click me tender</button>
+      <button onClick={handleClick}>Click me tender for a random Book</button>
     </>
   );
 }
