@@ -9,7 +9,7 @@ export default function Volumes() {
 
   function handleClick() {
     const randomSlug = getRandomElement(volumes).slug;
-    Router.push(`/volumes/${radomSlug}`);
+    Router.push(`/volumes/${randomSlug}`);
   }
 
   return (
