@@ -8,8 +8,8 @@ export default function Volumes() {
   }
 
   function handleClick() {
-    const newSlug = getRandomElement(volumes).slug;
-    Router.push(`/volumes/${newSlug}`);
+    const randomSlug = getRandomElement(volumes).slug;
+    Router.push(`/volumes/${radomSlug}`);
   }
 
   return (
